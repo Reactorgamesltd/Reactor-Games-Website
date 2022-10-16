@@ -134,5 +134,65 @@ div#latest-news {
 }
 
 footer {
+    padding: 2em 0;
+    margin-top: 2em;
     background-color: #45526e;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 5em;
+    margin: 0.4em 0;
+}
+
+ul#footer--logos-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#footer--logos-list li {
+    margin: 0 0.4em;
+}
+
+ul#footer--social-media-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul#footer--social-media-list li a {
+    margin: 0 0.4em;
+    font-size: 2em;
+    color: white !important;
+    text-decoration: none!important;
+    border: 0!important;
+}
+
+ul#footer--social-media-list li a:hover {
+    color: grey !important;
+}
+
+
+footer hr {
+    width: 85%;
+    margin: 1rem auto;
+    border-top: 2px solid;
+    color: grey;
+}
+
+.footer--copyright {
+    text-align: center;
+    width: fit-content;
+    margin: 2em auto;
+}
+
+.footer--copyright p {
+    font-size: 1.4em;
+    color: white;
+    letter-spacing: 0.4px;
 }
