@@ -122,9 +122,17 @@ div#latest-news {
     height: 16px !important;
 }
 
+.carousel-item {
+    z-index: -1 !important;
+}
+
 .carousel-control-prev {
     left: 10% !important;
 }
 .carousel-control-next {
     right: 10% !important;
+}
+
+footer {
+    background-color: #45526e;
 }
