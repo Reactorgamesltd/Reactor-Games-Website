@@ -47,6 +47,7 @@ header#page__header {
 
 ul#navigation__list li.navigation__list-item a {
     color: #fff !important;
+    padding: 0.8em;
 }
 
 main#page__main-content .jumbotron {
