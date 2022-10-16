@@ -107,3 +107,24 @@ li.card-game__cards-list--item {
     height: 45vh;
     border-radius: 20px;
 }
+
+div#latest-news {
+    text-align: center;
+}
+
+#latest-news h2 {
+    font-size: 3.2em !important;
+}
+
+#latest-news .carousel-indicators [data-bs-target] {
+    border-radius: 50% !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.carousel-control-prev {
+    left: 10% !important;
+}
+.carousel-control-next {
+    right: 10% !important;
+}
