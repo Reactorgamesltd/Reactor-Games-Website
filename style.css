@@ -16,6 +16,9 @@ a:hover {
 header#page__header {
     margin-bottom: 2rem;
     background: #00000095;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #page__header--navigation {
@@ -44,4 +47,63 @@ header#page__header {
 
 ul#navigation__list li.navigation__list-item a {
     color: #fff !important;
+}
+
+main#page__main-content .jumbotron {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/images/conceptcards/concepturanium.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -175px;
+}
+
+#page__main-content .jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background: #00000057;
+    width: 45%;
+    padding: 3em;
+}
+
+#page__main-content .jumbotron h1 {
+    font-size: 4em !important;
+    color: #fff !important;
+}
+
+#page__main-content .jumbotron p {
+    color: #fff !important;
+    letter-spacing: 0.8px;;
+}
+
+
+div.card-game__cards {
+    padding: 5em 0;
+    overflow: hidden;
+}
+
+.card-game__cards ul.card-game__cards-list {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    list-style: none;
+    overflow-x: scroll;
+}
+
+li.card-game__cards-list--item {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.card-game__cards-list--item img {
+    box-shadow: 0px 0px 24px #41464b;
+    height: 45vh;
+    border-radius: 20px;
 }
