@@ -21,6 +21,11 @@ header#page__header {
     width: 100%;
 }
 
+
+
+
+/* Navigation Bar */
+
 #page__header--navigation {
     padding: 0.4rem;
 }
@@ -50,6 +55,11 @@ ul#navigation__list li.navigation__list-item a {
     padding: 0.8em;
 }
 
+
+
+/* Main Page Background Image and Text*/
+
+
 main#page__main-content .jumbotron {
     width: 100%;
     height: 100vh;
@@ -72,16 +82,19 @@ main#page__main-content .jumbotron {
     padding: 3em;
 }
 
-#page__main-content .jumbotron h1 {
+
+#page__main-content .jumbotron h1, #about_page__main-content .jumbotron h1 {
     font-size: 4em !important;
     color: #fff !important;
 }
 
-#page__main-content .jumbotron p {
+#page__main-content .jumbotron p, #about_page__main-content .jumbotron h1  {
     color: #fff !important;
     letter-spacing: 0.8px;;
 }
 
+
+/* Cards */
 
 div.card-game__cards {
     padding: 5em 0;
@@ -109,6 +122,9 @@ li.card-game__cards-list--item {
     border-radius: 20px;
 }
 
+
+/* News Carousel */
+
 div#latest-news {
     text-align: center;
 }
@@ -133,6 +149,9 @@ div#latest-news {
 .carousel-control-next {
     right: 10% !important;
 }
+
+
+/* Footer */
 
 footer {
     padding: 2em 0;
@@ -196,4 +215,84 @@ footer hr {
     font-size: 1.4em;
     color: white;
     letter-spacing: 0.4px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~ABOUT PAGE~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Welcome Text */
+
+#about_page__main-content .jumbotron {
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 6.6%;
+}
+
+#about_page__main-content .jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background: #00000057;
+    width: 60%;
+    padding: 3em;
+}
+
+/* Team Cards */
+
+#team_title{
+    margin-top: 5%;
+}
+
+div.team {
+    padding: 10em 0;
+    overflow: hidden;
+}
+
+.team ul.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content:center;
+    list-style: none;
+}
+
+li.team-list--item {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.team-list--item img {
+    box-shadow: 0px 0px 24px #41464b;
+    height: 15vh;
+    border-radius: 1000px;
+}
+
+/* media */
+
+#media_page__main-content .jumbotron {
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+#media_page__main-content .jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background: #00000057;
+    width: 60%;
+    padding: 3em;
 }
