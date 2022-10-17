@@ -274,7 +274,7 @@ li.team-list--item {
     border-radius: 1000px;
 }
 
-/* media */
+/* ~~~~~~~~~~~~~~~~~~~Media Page~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #media_page__main-content .jumbotron {
 
@@ -295,4 +295,49 @@ li.team-list--item {
     background: #00000057;
     width: 60%;
     padding: 3em;
+}
+
+/* ~~~~~~~~~~~~~~~~STEM PAGE~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Welcome Text */
+
+#stem_page__main-content .jumbotron {
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 7%;
+}
+
+#stem_page__main-content .jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background: #00000057;
+    width: 60%;
+    padding: 3em;
+    border-radius: 1000px;
+}
+
+.newsitem{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.newsitem img{
+    height: 30vh;
+}
+
+li.newsitem-single {
+    /* flex-grow: 1;
+    flex-basis: 0; */
+    /* margin: 1em; */
+    padding: 1em;
 }
