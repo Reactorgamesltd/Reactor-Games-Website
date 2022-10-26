@@ -297,11 +297,11 @@ li.team-list--item {
     padding: 3em;
 }
 
-/* ~~~~~~~~~~~~~~~~STEM PAGE~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~Our Journey PAGE~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Welcome Text */
 
-#stem_page__main-content .jumbotron {
+#journey_page__main-content .jumbotron {
 
     width: 100%;
     height: 10vh;
@@ -311,7 +311,7 @@ li.team-list--item {
     margin-top: 7%;
 }
 
-#stem_page__main-content .jumbotron .container {
+#journey_page__main-content .jumbotron .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -340,4 +340,43 @@ li.newsitem-single {
     flex-basis: 0; */
     /* margin: 1em; */
     padding: 1em;
+}
+
+/* ~~~~~~~~~~~~~~~~Game Instructions PAGE~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+#game_page__main-content .jumbotron {
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+#game_page__main-content .jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background: #00000057;
+    width: 60%;
+    padding: 3em;
+    border-radius: 1000px;
+}
+
+.instructionitem{
+    margin-top: 2%;
+    display:inline-block;
+    padding: 1em;
+}
+
+
+
+/* GENERAL */
+.separator {
+    border-top: #45526e;
+    border-width: thick;
 }
