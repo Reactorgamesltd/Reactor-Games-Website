@@ -380,3 +380,28 @@ li.newsitem-single {
     border-top: #45526e;
     border-width: thick;
 }
+
+/* ~~~~~~~~~~~~~~~~Contact PAGE~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+#contact_page__main-content .jumbotron {
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+#contact_page__main-content .jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background: #00000057;
+    width: 60%;
+    padding: 3em;
+    border-radius: 1000px;
+}
