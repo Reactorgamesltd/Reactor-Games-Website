@@ -405,3 +405,214 @@ li.newsitem-single {
     padding: 3em;
     border-radius: 1000px;
 }
+
+
+
+
+/* EXPERIMENTAL EXPERIMENTAL  EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL */
+@media (max-width:768px) {
+
+    /* /CSS FOR MOBILE ONLY/ */
+
+    /* Body */
+    body {
+        font-family: 'Yanone Kaffeesatz', sans-serif !important;
+        width: 161%;
+    }
+    
+    a {
+        color: black !important;
+        text-decoration: none !important;
+        border-bottom: 2px solid transparent !important;
+        transition: border 0.4s ease !important;
+    }
+    a:hover {
+        border-bottom: 2px solid #fff !important;
+    }
+    
+    
+    header#page__header {
+        margin-bottom: 2rem;
+        background: #00000095;
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    
+    /* /Navigation Bar/ */
+    #page__header--navigation {
+        padding-bottom: 1px;
+        padding-left: 2px;
+        padding-right: 10px;
+        padding-top: 1px
+    }
+    
+    #page_header--navigation #navigation_list {
+        display: flex;
+        flex-direction: row;
+        width: 54%;
+        justify-content: space-between;
+    }
+    
+    ul#navigation_list li.navigation_list-item a {
+        color: #fff !important;
+        padding: 0.8em;
+    }
+    
+    /* Main Page Background Image and Text*/
+    main#page__main-content .jumbotron {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(assets/images/conceptcards/concepturanium.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+    
+    #page__main-content .jumbotron .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        background: #00000057;
+        position: 300%;
+        width: 60%;
+        padding: 1em;
+    }
+    
+    
+    #page_main-content .jumbotron h1, #about_page_main-content .jumbotron h1 {
+        font-size: 4em !important;
+        color: #fff !important;
+    }
+    
+    #page_main-content .jumbotron p, #about_page_main-content .jumbotron h1  {
+        color: #fff !important;
+        letter-spacing: 0.8px;;
+    }
+    
+    /* Cards */
+    div.card-game__cards {
+        padding: 5em 0;
+        overflow: hidden;
+    }
+    
+    .card-game_cards ul.card-game_cards-list {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        list-style: none;
+        overflow-x: scroll;
+    }
+    
+    li.card-game__cards-list--item {
+        flex-grow: 1;
+        flex-basis: 0;
+        margin: 0.25em;
+        padding: 1em;
+    }
+    
+    .card-game__cards-list--item img {
+        box-shadow: 0px 0px 24px #41464b;
+        height: 45vh;
+        border-radius: 20px;
+    }    
+
+
+    /* News Carousel */
+
+    div#latest-news {
+        text-align: center;
+    }
+
+    #latest-news h2 {
+        font-size: 3.2em !important;
+    }
+
+    #latest-news .carousel-indicators [data-bs-target] {
+        border-radius: 50% !important;
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .carousel-item {
+        z-index: -1 !important;
+    }
+
+    .carousel-control-prev {
+        left: 2% !important;
+    }
+    .carousel-control-next {
+        right: 2% !important;
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding: 0.2em 0;
+        margin-top: 2em;
+        background-color: #45526e;
+    }
+
+    footer .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer img {
+        width: 5em;
+        margin: 0.4em 0;
+    }
+
+    ul#footer--logos-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    #footer--logos-list li {
+        margin: 0 0.4em;
+    }
+
+    ul#footer--social-media-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    ul#footer--social-media-list li a {
+        margin: 0 0.4em;
+        font-size: 2em;
+        color: white !important;
+        text-decoration: none!important;
+        border: 0!important;
+    }
+
+    ul#footer--social-media-list li a:hover {
+        color: grey !important;
+    }
+
+    footer hr {
+        width: 85%;
+        margin: 1rem auto;
+        border-top: 2px solid;
+        color: grey;
+    }
+
+    .footer--copyright {
+        text-align: center;
+        width: fit-content;
+        margin: 2em auto;
+    }
+
+    .footer--copyright p {
+        font-size: 1.4em;
+        color: white;
+        letter-spacing: 0.4px;
+    }
+
+}
