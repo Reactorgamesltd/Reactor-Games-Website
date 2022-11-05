@@ -629,6 +629,7 @@ li.newsitem-single {
         justify-content: center;
         align-items: start;
         margin-top: 7%;
+        margin-bottom: 25%; /* Changed */
     }
 
     #journey_page__main-content .jumbotron .container {
@@ -645,21 +646,20 @@ li.newsitem-single {
     .newsitem{
         margin-top: 15%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column; /* Changed */
         align-items: center;
         list-style: none;
         justify-content: space-between;
     }
 
     .newsitem img{
-        height: 30vh;
+        height: auto; /* Changed */
+        width: 100%; /* Changed */
     }
 
     li.newsitem-single {
-        /* flex-grow: 1;
-        flex-basis: 0; */
-        /* margin: 1em; */
         padding: 1em;
+        padding-right: 3em; /* Changed */
     }
 
     
