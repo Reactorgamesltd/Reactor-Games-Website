@@ -825,5 +825,9 @@ li.newsitem-single {
         padding: 3em;
         border-radius: 15%; /* Changed */
     }
+
+    #contact_page__main-content .container {
+        margin-bottom: 48%;
+    }
     
 }
