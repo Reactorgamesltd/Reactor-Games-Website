@@ -83,12 +83,20 @@ main#page__main-content .jumbotron {
 }
 
 
-#page__main-content .jumbotron h1, #about_page__main-content .jumbotron h1 {
+#page__main-content .jumbotron h1, 
+#about_page__main-content .jumbotron h1, 
+#game_page__main-content .jumbotron h1, 
+#journey_page__main-content .jumbotron h1, 
+#contact_page__main-content .jumbotron h1{
     font-size: 4em !important;
     color: #fff !important;
 }
 
-#page__main-content .jumbotron p, #about_page__main-content .jumbotron h1  {
+#page__main-content .jumbotron p, 
+#about_page__main-content .jumbotron h1, 
+#game_page__main-content .jumbotron h1, 
+#journey_page__main-content .jumbotron h1, 
+#contact_page__main-content .jumbotron h1{
     color: #fff !important;
     letter-spacing: 0.8px;;
 }
@@ -240,6 +248,7 @@ footer hr {
     background: #00000057;
     width: 60%;
     padding: 3em;
+    border-radius: 1000px;
 }
 
 /* Team Cards */
@@ -405,6 +414,32 @@ li.newsitem-single {
     padding: 3em;
     border-radius: 1000px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -629,7 +664,7 @@ li.newsitem-single {
         justify-content: center;
         align-items: start;
         margin-top: 7%;
-        margin-bottom: 25%; /* Changed */
+        margin-bottom: 30%; /* Changed */
     }
 
     #journey_page__main-content .jumbotron .container {
@@ -638,9 +673,9 @@ li.newsitem-single {
         align-items: center;
         align-content: space-between;
         background: #00000057;
-        width: 60%;
+        width: 80%; /* Changed */
         padding: 3em;
-        border-radius: 1000px;
+        border-radius: 15%; /* Changed */
     }
 
     .newsitem{
@@ -673,7 +708,7 @@ li.newsitem-single {
         justify-content: center;
         align-items: start;
         margin-top: 7%;
-        margin-bottom: 25%; /* Changed */
+        margin-bottom: 45%; /* Changed */
     }
     
     #game_page__main-content .jumbotron .container {
@@ -682,9 +717,9 @@ li.newsitem-single {
         align-items: center;
         align-content: space-between;
         background: #00000057;
-        width: 60%;
+        width: 80%; /* Changed */
         padding: 3em;
-        border-radius: 1000px;
+        border-radius: 15%; /* Changed */
     }
     
     .instructionitem{
@@ -767,4 +802,28 @@ li.newsitem-single {
         width: 100%; /* Changed */
         border-radius: 100%; /* Changed */
     }
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CONTACT US PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    #contact_page__main-content .jumbotron {
+
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-top: 7%;
+        margin-bottom: 30%;
+    }
+    
+    #contact_page__main-content .jumbotron .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        background: #00000057;
+        width: 80%; /* Changed */
+        padding: 3em;
+        border-radius: 15%; /* Changed */
+    }
+    
 }
