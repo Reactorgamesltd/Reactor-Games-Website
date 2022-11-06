@@ -81,6 +81,10 @@ main#page__main-content .jumbotron {
     width: 45%;
     padding: 3em;
 }
+#page__main-content .jumbotron .container img{
+width: 20em;
+padding-bottom: 3%;
+}
 
 
 #page__main-content .jumbotron h1, 
