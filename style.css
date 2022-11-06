@@ -485,7 +485,7 @@ li.newsitem-single {
     
     
     header#page__header {
-        margin-bottom: 2rem;
+        margin-bottom: 0rem; /* Changed from 2rem*/
         background: #00000095;
         position: relative;
         top: 0;
