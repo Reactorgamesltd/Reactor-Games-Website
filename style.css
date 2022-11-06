@@ -238,6 +238,7 @@ footer hr {
     justify-content: center;
     align-items: start;
     margin-top: 6.6%;
+    margin-bottom: 1%;
 }
 
 #about_page__main-content .jumbotron .container {
@@ -252,6 +253,11 @@ footer hr {
 }
 
 /* Team Cards */
+
+.team h2{
+    text-decoration: underline; /* Changed */
+}
+
 
 #team_title{
     margin-top: 5%;
