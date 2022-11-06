@@ -242,8 +242,13 @@ footer hr {
     justify-content: center;
     align-items: start;
     margin-top: 6.6%;
-    margin-bottom: 1%;
+    margin-bottom: 15%;
 }
+
+#about_page__main-content .jumbotron .container img{
+    width: 20em;
+    padding-bottom: 3%;
+    }
 
 #about_page__main-content .jumbotron .container {
     display: flex;
@@ -253,7 +258,7 @@ footer hr {
     background: #00000057;
     width: 60%;
     padding: 3em;
-    border-radius: 1000px;
+    border-radius: 2000px;
 }
 
 /* Team Cards */
@@ -766,7 +771,7 @@ li.newsitem-single {
         justify-content: center;
         align-items: start;
         margin-top: 6.6%;
-        margin-bottom: 25%; /* Changed */
+        margin-bottom: 50%; /* Changed */
     }
 
     #about_page__main-content .jumbotron .container {
