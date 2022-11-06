@@ -359,6 +359,14 @@ li.newsitem-single {
 
 /* ~~~~~~~~~~~~~~~~Game Instructions PAGE~~~~~~~~~~~~~~~~~~~~~~ */
 
+#game_page__main-content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 7%;
+    
+}
 
 #game_page__main-content .jumbotron {
 
@@ -367,7 +375,7 @@ li.newsitem-single {
     display: flex;
     justify-content: center;
     align-items: start;
-    margin-top: 7%;
+    margin-top: 2%;
     margin-bottom: 10%;
 }
 
