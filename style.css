@@ -1075,6 +1075,7 @@ li.newsitem-single {
         align-items: start;
         margin-top: 7%;
         margin-bottom: 50%; /* Changed */
+        border-style: solid;
     }
 
     #journey_page__main-content .jumbotron .container {
@@ -1130,6 +1131,7 @@ li.newsitem-single {
         width: 95%; /* Changed */
         padding: 1em;
         border-radius: 15%; /* Changed */
+        border-style: solid;
     }
     
     .instructionitem{
@@ -1174,6 +1176,7 @@ li.newsitem-single {
         width: 95%; /* Changed */
         padding: 1em;
         border-radius: 15%; /* Changed */
+        border-style: solid;
     }
 
     /* Team Cards */
@@ -1238,6 +1241,7 @@ li.newsitem-single {
         width: 95%; /* Changed */
         padding: 3em;
         border-radius: 15%; /* Changed */
+        border-style: solid;
     }
 
     #contact_page__main-content .container {
