@@ -1081,7 +1081,7 @@ li.newsitem-single {
         align-items: center;
         align-content: space-between;
         background: #00000057;
-        width: 90%; /* Changed */
+        width: 95%; /* Changed */
         padding: 3em;
         border-radius: 15%; /* Changed */
     }
@@ -1116,7 +1116,7 @@ li.newsitem-single {
         justify-content: center;
         align-items: start;
         margin-top: 7%;
-        margin-bottom: 80%; /* Changed */
+        margin-bottom: 70%; /* Changed */
     }
     
     #game_page__main-content .jumbotron .container {
@@ -1125,8 +1125,8 @@ li.newsitem-single {
         align-items: center;
         align-content: space-between;
         background: #00000057;
-        width: 90%; /* Changed */
-        padding: 3em;
+        width: 95%; /* Changed */
+        padding: 1em;
         border-radius: 15%; /* Changed */
     }
     
@@ -1160,7 +1160,7 @@ li.newsitem-single {
         justify-content: center;
         align-items: start;
         margin-top: 6.6%;
-        margin-bottom: 85%; /* Changed */
+        margin-bottom: 75%; /* Changed */
     }
 
     #about_page__main-content .jumbotron .container {
@@ -1169,8 +1169,8 @@ li.newsitem-single {
         align-items: center;
         align-content: space-between;
         background: #00000057;
-        width: 90%; /* Changed */
-        padding: 3em;
+        width: 95%; /* Changed */
+        padding: 1em;
         border-radius: 15%; /* Changed */
     }
 
@@ -1224,7 +1224,7 @@ li.newsitem-single {
         justify-content: center;
         align-items: start;
         margin-top: 7%;
-        margin-bottom: 60%;
+        margin-bottom: 65%;
     }
     
     #contact_page__main-content .jumbotron .container {
@@ -1233,7 +1233,7 @@ li.newsitem-single {
         align-items: center;
         align-content: space-between;
         background: #00000057;
-        width: 90%; /* Changed */
+        width: 95%; /* Changed */
         padding: 3em;
         border-radius: 15%; /* Changed */
     }
