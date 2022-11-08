@@ -983,6 +983,10 @@ li.newsitem-single {
         z-index: -1 !important;
     }
 
+    .carousel-item img {
+        width: 100%;
+    }
+
     .carousel-control-prev {
         left: 2% !important;
     }
