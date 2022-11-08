@@ -1075,7 +1075,6 @@ li.newsitem-single {
         align-items: start;
         margin-top: 7%;
         margin-bottom: 50%; /* Changed */
-        border-style: solid;
     }
 
     #journey_page__main-content .jumbotron .container {
@@ -1087,6 +1086,7 @@ li.newsitem-single {
         width: 95%; /* Changed */
         padding: 3em;
         border-radius: 15%; /* Changed */
+        border-style: solid;
     }
 
     .newsitem{
