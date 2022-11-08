@@ -57,30 +57,33 @@
         </div>
 
         <div class="container mt-5">
-            <form class="row g-3">
+            <form class="row g-3" id="contactform" action="https://formsubmit.co/2982adba3733edb31e40e1f7147e9130" method="POST">
               <div class="col-md-6">
                 <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" required>
+                <input type="text" class="form-control" name="First Name" id="firstName" required>
               </div>
               <div class="col-md-6">
                 <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" required>
+                <input type="text" class="form-control" name="Last Name" id="lastName" required>
               </div>
               <div class="col-md-8">
                 <label for="emailInfo" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="emailInfo" required>
+                <input type="email" class="form-control" name="Email-Address" id="emailInfo" required>
               </div>
               <div class="col-md-4">
                 <label for="phoneNumber" class="form-label">Phone Number</label>
-                <input type="text" class="form-control" id="phoneNumber" placeholder="+44 xxxx xxxxxx">
+                <input type="text" class="form-control" name="Phone Number" id="phoneNumber" placeholder="+44 xxxx xxxxxx">
               </div>
               <div class="col-md-12">
                 <label for="comments" class="form-label">Your Question Here:</label>
-                <textarea class="form-control" id="comments" rows="3" required></textarea>
+                <textarea class="form-control" name="Message" id="comments" rows="3" required></textarea>
               </div>
               <div class="col-md-12 text-center">
                 <button type="submit" class="btn btn-primary">Submit</button>
               </div>
+              <input type="hidden" name="_next" value="https://reactorgames.co.uk/thankyou.html">
+              <input type="hidden" name="_subject" value="New Form submission!">
+              <input type="hidden" name="_autoresponse" value="This email is to confirm your form submission was sucessful. We aim to get back to you within the week!">
             </form>
         </div>
 

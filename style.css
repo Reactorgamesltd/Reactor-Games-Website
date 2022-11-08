@@ -438,7 +438,11 @@ li.newsitem-single {
     border-radius: 1000px;
 }
 
+/* Thank you page (Redirects here from Contact Page) */
 
+#thankyou_page__main-content .container{
+    margin-top: 20%;
+}
 
 
 
