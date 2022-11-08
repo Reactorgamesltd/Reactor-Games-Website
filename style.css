@@ -77,7 +77,7 @@ main#page__main-content .jumbotron {
     flex-direction: column;
     align-items: center;
     align-content: space-between;
-    /* background: #00000057; */
+    background: #00000057;
     width: 45%;
     padding: 3em;
 }
@@ -526,7 +526,7 @@ li.newsitem-single {
         flex-direction: column;
         align-items: center;
         align-content: space-between;
-        /* background: #00000057; */
+        background: #00000057;
         position: 300%;
         width: 60%;
         padding: 1em;
@@ -916,10 +916,12 @@ li.newsitem-single {
         flex-direction: column;
         align-items: center;
         align-content: space-between;
-        /* background: #00000057; */
+        background: #00000057;
         position: 300%;
         width: 80%; /* Changed */
         padding: 1em;
+        border-radius: 100px;
+        border-style: solid;
     }
     
     
