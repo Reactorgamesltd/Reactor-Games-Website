@@ -1,5 +1,6 @@
 body {
     font-family: 'Nunito', sans-serif !important;
+    font-size: 0.9rem;
 }
 
 a {
@@ -851,6 +852,7 @@ li.newsitem-single {
     body {
         font-family: 'Yanone Kaffeesatz', sans-serif !important;
         width: 100%;
+        font-size: 0.8rem !important;
     }
     
     a {
