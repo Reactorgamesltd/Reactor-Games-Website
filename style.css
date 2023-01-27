@@ -112,14 +112,38 @@ padding-bottom: 3%;
 div.card-game__cards {
     padding: 5em 0;
     overflow: hidden;
+    display: flex;
+}
+
+.card-game__cards .scrollbutton{
+    background-color: transparent;
+    font-size: 2em;
+    border: transparent;
+    border-radius: 50%;
+    /* position: relative;
+    z-index: 10; */
+   }
+
+.card-game__cards .scrollbutton :hover{
+    background-color: #191142;
+    border-color: #191142;
 }
 
 .card-game__cards ul.card-game__cards-list {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-content: flex-start;
     list-style: none;
-    overflow-x: scroll;
+    overflow-x: scroll; 
+    OLD CHECK NEW*/
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    list-style: none;
 }
 
 li.card-game__cards-list--item {
@@ -133,6 +157,14 @@ li.card-game__cards-list--item {
     box-shadow: 0px 0px 24px #41464b;
     height: 45vh;
     border-radius: 20px;
+}
+
+.card-game__cards-list::-webkit-scrollbar{
+    background-color: #aaa;
+}
+
+.card-game__cards-list::-webkit-scrollbar-thumb{
+    background-color: #191142;
 }
 
 
