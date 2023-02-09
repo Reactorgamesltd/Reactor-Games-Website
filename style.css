@@ -113,6 +113,7 @@ div.card-game__cards {
     padding: 5em 0;
     overflow: hidden;
     display: flex;
+    position: relative;
 }
 
 .card-game__cards .scrollbutton{
@@ -120,8 +121,19 @@ div.card-game__cards {
     font-size: 2em;
     border: transparent;
     border-radius: 50%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
     /* position: relative;
     z-index: 10; */
+   }
+   
+   .left {
+     left: 2rem;
+   }
+   
+   .right{
+     right: 2rem;
    }
 
 .card-game__cards .scrollbutton :hover{
