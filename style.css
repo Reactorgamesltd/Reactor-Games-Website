@@ -126,6 +126,16 @@ div.card-game__cards {
     transform: translateY(-50%);
     /* position: relative;
     z-index: 10; */
+    color: #191142;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+    border-radius: 100%;
+    border: 3.5px solid #191142;
+    
+    
    }
    
    .left {
