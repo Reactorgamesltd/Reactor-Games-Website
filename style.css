@@ -1166,6 +1166,9 @@ li.newsitem-single {
 
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~RACE TO REACTOR PRODUCT PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+    .blue_background_alt{
+			background-color: #32b0f1;
+    }
     #game_page__main-content img{
         display: block;
         margin-left: auto;
