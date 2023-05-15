@@ -1166,15 +1166,23 @@ li.newsitem-single {
 
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~RACE TO REACTOR PRODUCT PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-    #game_page__main-content .jumbotron {
+    #game_page__main-content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        
+    }
 
+    #game_page__main-content .jumbotron {
+        font-size: 10px;
         width: 100%;
         height: 10vh;
         display: flex;
         justify-content: center;
         align-items: start;
         margin-top: 7%;
-        margin-bottom: 70%; /* Changed */
+        margin-bottom: 30%; /* Changed */
     }
     
     #game_page__main-content .jumbotron .container {
@@ -1188,6 +1196,10 @@ li.newsitem-single {
         border-radius: 15%; /* Changed */
         border-style: solid;
     }
+    #game_page__main-content .jumbotron h2{
+        font-size: 15px;
+
+    }
     
     .instructionitem{
         margin-top: 2%;
@@ -1195,17 +1207,21 @@ li.newsitem-single {
         padding: 1em;
     }
 
-    .instructionitem img {
-        width: 100% !important;
-    }
+
+
+
+
+
+
     
-    
-    
-    /* GENERAL */
-    .separator {
-        border-top: #45526e;
-        border-width: thick;
-    }
+
+
+
+
+
+
+
+
 
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ABOUT US PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     
